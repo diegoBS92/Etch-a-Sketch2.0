@@ -1,0 +1,22 @@
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+input {
+    width: 25px;
+}
+
+.painted {
+    background-color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
